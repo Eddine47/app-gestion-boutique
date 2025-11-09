@@ -1,0 +1,39 @@
+# ---- Node / React ----
+node_modules/
+build/
+dist/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ---- Java / Spring Boot ----
+target/
+*.jar
+*.war
+*.class
+*.log
+*.iml
+/.idea/
+/.vscode/
+.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# ---- OS / Éditeurs ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ---- Docker ----
+/docker-data/
+/volumes/
+/*.pid
+
+# ---- Autres fichiers perso ----
+*.env.local
+*.secret
